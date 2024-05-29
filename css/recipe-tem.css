@@ -1,0 +1,10 @@
+body{
+    font-family: "Poetsen One", sans-serif;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+.food-items{
+    border: 1px solid;
+}

@@ -1,0 +1,37 @@
+body{
+    font-family: "Poetsen One", sans-serif;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    text-align: -webkit-center;
+}
+.item-details{
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 5px;
+    width: 40%;
+}
+.item-row {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 12px;
+}
+.item-row label {
+    text-align: start;
+    font-size: 22px;
+}   
+.item-row input {
+    font-size: 17px;
+    padding: 10px;
+}
+.btn-submit button {
+    padding: 6px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+input[type="number"]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
