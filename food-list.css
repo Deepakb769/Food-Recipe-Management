@@ -19,12 +19,24 @@ body{
     gap: 12px;
 }
 .item-row label {
+    
     text-align: start;
     font-size: 22px;
 }   
 .item-row input {
+    font-family: "Poetsen One","sans-serif";
+    font-weight: 400;
     font-size: 17px;
     padding: 10px;
+}
+.number-item {
+    display: flex;
+}
+div#order, div#quantity {
+    display: inline;
+}
+input#order, input#quantity {
+    width: 20%;
 }
 .btn-submit button {
     padding: 6px 10px;
@@ -34,4 +46,43 @@ body{
 input[type="number"]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
+}
+ul#food-list {
+    border: 1px solid;
+}
+/* ul#food-list li {
+    list-style-type: none;
+} */
+ul.list-box {
+    display: flex;
+    align-items: center;
+}
+#food-list ul {
+    width: fit-content;
+    border: 1px solid;    
+    padding: 15px;
+}
+div#food-list li {
+    text-align: start;
+    list-style-type: none;
+}
+.list-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+/* recipe-item -> maggie */
+.food-item-list h2 {
+    text-align: start;
+}
+.maggie-list {
+    display: flex;
+    border: 1px solid;
+    text-decoration: none;
+}
+.maggie-flavour-detail h3 {
+    color: black;
+}
+.food-item-list h2, .maggie-list h3 {
+    text-align: start;
 }

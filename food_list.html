@@ -17,24 +17,35 @@
         <div class="item-details">
             <div class="item-row">
                 <label for="">Item name :</label>
-                <input type="text" placeholder="Enter food item">
+                <input type="text" id="name" placeholder="Enter food item">
             </div>
-            <div class="item-row" id="quantity">
-                <label for="">Order :</label>
-                <input type="number">
+            <div class="number-item">
+                <div class="item-row">
+                    <label for="">Order :</label>
+                    <input type="number" id="order">
+                </div>
+                <div class="item-row">
+                    <label for="">Quantity :</label>
+                    <input type="number" id="quantity">
+                </div>
             </div>
-            <div class="item-row" id="quantity">
-                <label for="">Quantity :</label>
-                <input type="number">
-            </div>
-            <div class="item-row" id="quantity">
+            <div class="item-row">
                 <label for="">Special Ingridient :</label>
-                <input type="text">
+                <input type="text" id="special">
             </div>
             <div class="btn-submit">
-                <a href="./components/recipe-item/recipe-item.html"><button type="submit">Submit</button></a>
+                <button onclick="foodList()">Add</button>
             </div>
         </div>
+        <div id="food-list">
+
+        </div>
     </div>
+    <script src="./js/food_list.js"></script>
+    <!-- <script>
+        function foodList(){
+
+        }
+    </script> -->
 </body>
 </html>
