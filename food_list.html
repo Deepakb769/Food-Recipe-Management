@@ -15,27 +15,29 @@
             <h1>Food Recipe</h1>
         </div>
         <div class="item-details">
-            <div class="item-row">
-                <label for="">Item name :</label>
-                <input type="text" id="name" placeholder="Enter food item">
-            </div>
-            <div class="number-item">
+            <form method="get" action="./components/ordered-list.html">
                 <div class="item-row">
-                    <label for="">Order :</label>
-                    <input type="number" id="order">
+                    <label for="item">Item name :</label>
+                    <input type="text" id="name" name="item" placeholder="Enter food item">
+                </div>
+                <div class="number-item">
+                    <div class="item-row">
+                        <label for="order">Order :</label>
+                        <input type="number" name="order" id="order">
+                    </div>
+                    <div class="item-row">
+                        <label for="table">Table-no :</label>
+                        <input type="number" name="table" id="table">
+                    </div>
                 </div>
                 <div class="item-row">
-                    <label for="">Quantity :</label>
-                    <input type="number" id="quantity">
+                    <label for="special">Special Ingridient :</label>
+                    <input type="text" name="special" id="special">
                 </div>
-            </div>
-            <div class="item-row">
-                <label for="">Special Ingridient :</label>
-                <input type="text" id="special">
-            </div>
-            <div class="btn-submit">
-                <button onclick="foodList()">Add</button>
-            </div>
+                <div class="btn-submit">
+                    <button onclick="foodList()">Add</button>
+                </div>
+            </form>
         </div>
         <div id="food-list">
 

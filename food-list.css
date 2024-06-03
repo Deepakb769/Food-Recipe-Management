@@ -32,10 +32,10 @@ body{
 .number-item {
     display: flex;
 }
-div#order, div#quantity {
+div#order, div#table {
     display: inline;
 }
-input#order, input#quantity {
+input#order, input#table {
     width: 20%;
 }
 .btn-submit button {
@@ -85,4 +85,16 @@ div#food-list li {
 }
 .food-item-list h2, .maggie-list h3 {
     text-align: start;
+}
+
+/* Ordered-list */
+div#order-list {
+    border: 1px solid;
+}
+div#order-list ul {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
 }
