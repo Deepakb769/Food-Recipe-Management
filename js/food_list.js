@@ -48,4 +48,6 @@ document.getElementById("order-list").innerHTML = `<ul>
     <li>${order}</li>
     <li>${table}</li>
     <li>${special}</li>
+    <button>Start</button>
+    <li></li>
 </ul>`

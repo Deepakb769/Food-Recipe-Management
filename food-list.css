@@ -98,3 +98,9 @@ div#order-list ul {
     display: flex;
     justify-content: space-around;
 }
+div#order-list button {
+    padding: 7px 24px;
+    color: white;
+    background: green;
+    cursor: pointer;
+}
