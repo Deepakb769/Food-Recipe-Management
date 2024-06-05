@@ -41,6 +41,7 @@ var item = param.get("item");
 var order = param.get("order")
 var table = param.get("table")
 var special = param.get("special")
+var avoid = param.get("avoid")
 
 var orderCollect = [`${item}`,`${order}`,`${table}`,`${special}`]
 document.getElementById("order-list").innerHTML = `<ul>
@@ -48,6 +49,7 @@ document.getElementById("order-list").innerHTML = `<ul>
     <li>${order}</li>
     <li>${table}</li>
     <li>${special}</li>
+    <li>${avoid}</li>
     <button>Start</button>
     <li></li>
 </ul>`

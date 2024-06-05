@@ -1,6 +1,13 @@
 body{
     font-family: "Poetsen One", sans-serif;
+    background: url("./Assets/restaurant-back.avif");
+    height: 100%;
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
 }
+/* .background-image{
+    
+} */
 .container{
     max-width: 1000px;
     margin: auto;
@@ -11,6 +18,7 @@ body{
     padding: 20px;
     border-radius: 5px;
     width: 40%;
+    background: whitesmoke;
 }
 .item-row {
     display: flex;

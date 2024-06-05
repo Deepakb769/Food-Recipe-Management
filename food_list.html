@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="background-image">
+        <div class="container">
         <div class="list-title">
             <h1>Food Recipe</h1>
         </div>
@@ -34,6 +35,10 @@
                     <label for="special">Special Ingridient :</label>
                     <input type="text" name="special" id="special">
                 </div>
+                <div class="item-row">
+                    <label for="avoid">Avoid item :</label>
+                    <input type="text" name="avoid" id="avoid">
+                </div>
                 <div class="btn-submit">
                     <button onclick="foodList()">Add</button>
                 </div>
@@ -41,6 +46,7 @@
         </div>
         <div id="food-list">
 
+        </div>
         </div>
     </div>
     <script src="./js/food_list.js"></script>
