@@ -13,36 +13,36 @@
     <div class="background-image">
         <div class="container">
         <div class="list-title">
-            <h1>Food Recipe</h1>
+            <h1 id="item-name">Food Recipe</h1>
         </div>
         <div class="item-details">
-            <form method="get" action="./components/ordered-list.html">
+            <!-- <form method="get" action="./components/ordered-list.html"> -->
                 <div class="item-row">
                     <label for="item">Item name :</label>
-                    <input type="text" id="name" name="item" placeholder="Enter food item">
+                    <input type="text" id="item" name="item" placeholder="Enter food item"/>
                 </div>
                 <div class="number-item">
                     <div class="item-row">
                         <label for="order">Order :</label>
-                        <input type="number" name="order" id="order">
+                        <input type="number" name="order" id="order"/>
                     </div>
                     <div class="item-row">
                         <label for="table">Table-no :</label>
-                        <input type="number" name="table" id="table">
+                        <input type="number" name="table" id="table"/>
                     </div>
                 </div>
                 <div class="item-row">
                     <label for="special">Special Ingridient :</label>
-                    <input type="text" name="special" id="special">
+                    <input type="text" name="special" id="special"/>
                 </div>
                 <div class="item-row">
                     <label for="avoid">Avoid item :</label>
-                    <input type="text" name="avoid" id="avoid">
+                    <input type="text" name="avoid" id="avoid"/>
                 </div>
                 <div class="btn-submit">
                     <button onclick="foodList()">Add</button>
                 </div>
-            </form>
+            <!-- </form> -->
         </div>
         <div id="food-list">
 
