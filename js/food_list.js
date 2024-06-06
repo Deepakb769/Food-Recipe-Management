@@ -8,6 +8,7 @@ function foodList(){
     let order = document.getElementById("order").value;
     let table = document.getElementById("table").value;
     let special = document.getElementById("special").value;
+    let avoid = document.getElementById("avoid").value;
     
 
     result.innerHTML += `<ul class='list-box'>
@@ -16,7 +17,8 @@ function foodList(){
                 <li>Order : ${order}</li>
                 <li>Quantity : ${table}</li>
                 <li>Special-order : ${special}</li>
-                <li>${title}</li>
+                <li>${avoid}</li>
+                <button>Submit</button>
             </div>
         </ul>`;
 }

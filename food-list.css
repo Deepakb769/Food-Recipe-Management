@@ -61,12 +61,18 @@ ul#food-list {
 /* ul#food-list li {
     list-style-type: none;
 } */
-ul.list-box {
+/* ul.list-box {
     display: flex;
     align-items: center;
+} */
+
+.order-name {
+    display: flex;
+    justify-content: space-between;
 }
+
 #food-list ul {
-    width: fit-content;
+    
     border: 1px solid;    
     padding: 15px;
 }
